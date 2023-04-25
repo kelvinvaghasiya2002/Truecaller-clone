@@ -1,0 +1,110 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+    /*           TITLE             */
+
+    /*           NAVBAR            */
+
+.nav-link{
+    font-weight: 600;
+    font-size: 0.90rem;
+    line-height: 2;
+    color: black;
+    margin-right: 10px;
+}
+
+.navbar-brand{
+    font-size: 1.56rem;
+    font-weight: 700;
+    color: white;
+}
+
+@media (min-width: 1030px){
+    .saparate{
+        margin-left: 22rem;
+    }
+    
+}
+.download{
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1;
+    /* line-height: 1; */
+    padding: 1.2rem 2rem;
+    letter-spacing: 0.3px;
+    background-color: rgba(0,135,255,1);
+    border: none;
+    border-radius: 9999px;
+}
+
+
+    /*           HEADING            */
+
+.main-heading{
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 1.25;
+    color: white;
+    letter-spacing: -2px;
+    margin-top: 50px;
+}
+
+.mx-width{
+    max-width: 600px;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.heading{
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/GirlHoldingIphone\(e\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 640px){
+    .main-heading{
+        font-size: 2.5rem;
+    }
+    /* .mx-width{
+        max-width: 600px;
+    } */
+}
+
+.app-download{
+    font-size: 0.875rem;
+    font-weight: 600;
+    /* letter-spacing: 0.85px;
+    line-height: 1.35; */
+    color: black;
+}
+
+.app-download-btn{
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+.app-btn{
+    background-color: white;
+    border-radius: 9999px;
+    padding: 15px 25px;
+    text-align: center;
+    border: none;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.rattings{
+    font-size: 0.65rem;
+    font-weight: 600;
+    margin-left: 30px;
+    /* position: relative;
+    top: 1rem; */
+}
